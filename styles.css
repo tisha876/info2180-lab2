@@ -1,0 +1,135 @@
+
+#head-div{
+    background-color: rgb(90, 198, 241);
+    max-width: 100%;
+    height: 400px;
+    
+    
+}
+
+
+
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 300px
+    
+    
+}
+
+#pfp{
+    border-radius:100px;
+    width:200px;
+    height: 200px;
+    }
+
+#head-div #notes{
+    margin-top: 10;
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#main-div{
+    padding-top: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#sidebar-div{ 
+    overflow: auto;
+    background-color: lightgrey;
+    width: 57%;
+    height: 750px;
+    text-align: left;
+    float: left;
+    
+}
+
+#topside{
+    background-color: aqua;
+    height:auto;
+    margin-bottom: auto;
+}
+
+#doggy{
+    float: right;
+    border-radius:100px;
+    width:200px;
+    height: 200px;
+}
+
+#bottomside{
+    height: auto;
+    background-color: blue;
+    height:375px;
+}
+
+#sealy{
+    float: right;
+    border-radius:100px;
+    width:200px;
+    height: 200px;
+}
+#body-div{
+    background-color: lightgrey;    
+    width: 35%;    
+    height:750px;
+    text-align:left;
+    overflow: auto;
+    float: right;
+
+}
+
+#top{
+    background-color: rgb(30, 112, 44);
+    height: 250px;
+
+}
+
+#middle{
+    background-color: rgb(138, 41, 41);
+    height: 250px;
+}
+
+
+li {
+    margin: 10px; 
+}
+
+a {
+    
+    color: blue;          
+    padding: 10px;               
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+a:hover {
+    background-color: #e0e0e0; /* Background color on hover */
+}
+#bottom{
+    background-color: rgb(103, 54, 168);
+    height:250px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+#footer-div{
+    background-color: lightgrey;
+    
+    max-width: 100%;
+    min-height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
